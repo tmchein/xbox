@@ -1,0 +1,27 @@
+.o_card_container {
+  display: flex;
+  color: white;
+
+  img {
+    width: 128px;
+    height: 128px;
+    object-fit: cover;
+    border-radius: 50%;
+  }
+}
+
+.o_card_content {
+  margin: 0 0 0 20px;
+  width: 162px;
+  h3 {
+    font-family: "Mullermedium";
+  }
+  h4 {
+    font-family: "Mullerregular";
+    margin: 0;
+  }
+
+  p {
+    font-family: "Mullerregular";
+  }
+}

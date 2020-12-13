@@ -1,0 +1,17 @@
+.o_button {
+  width: 200px;
+  height: 60px;
+  border: none;
+  outline: none;
+  background-color: #107c10;
+  font-family: "campton medium";
+  font-size: 1rem;
+  color: white;
+  transition: 0.15s ease-in-out;
+}
+
+.o_button:hover {
+  background-color: #0b520b;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+}

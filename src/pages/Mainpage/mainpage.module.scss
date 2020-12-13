@@ -1,0 +1,62 @@
+.o_main_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100vh;
+}
+
+.o_game_container {
+  align-self: center;
+  display: flex;
+  width: 80%;
+  padding: 20px 0;
+  border-radius: 100px 100px 0 0;
+  justify-content: space-around;
+  background-color: #333333;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .o_game_container {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .o_game_container {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0;
+    align-items: center;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .o_game_container {
+    width: 100%;
+    flex-direction: column;
+    border-radius: 0;
+    align-items: center;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .o_game_container {
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-around;
+    border-radius: 100px 100px 0 0;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .o_game_container {
+    width: 90%;
+  }
+}
